@@ -2,7 +2,7 @@
 {
 	'name': "Mass Invitation Or Reset Password Intruction",
 	'sequence': 0,
-	'summary': """Send Invitation Or Reset Password To Many Users""",
+	'summary': """Send Invitation Or Reset Password Intruction To Many Users""",
 	'description': """This module is used to Send Invitation to many Users.""",
 	'author': "SLife Organization, Odoo Community Association (OCA)",
 	'category': 'web',
