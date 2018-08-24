@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="sirh_org_chart_template" xml:space="preserve">
+  <!-- Debut Afficher le boutton d'envoie massive d'invitation -->
+  <t t-extend="ListView.buttons">
+    <t t-jquery=".o_list_buttons" t-operation="append">
+      <button t-if="widget and widget.modelName == 'res.users'" class="btn btn-sm btn-primary invitation_to_all_users" type="button"
+        style="background-color: #0c0c0c;color: #FFF;">
+        Send Invitation or Reset Password To All
+      </button>
+    </t>
+  </t>
+  <!-- Fin Afficher le boutton d'envoie massive d'invitation -->
+</templates>

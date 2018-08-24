@@ -1,0 +1,7 @@
+<odoo>
+    <template id="invitation_assets_backend" name="Users Invitations Assets" inherit_id="web.assets_backend">
+      <xpath expr=".">
+        <script type="application/javascript" src="/send_invitation_users/static/src/js/send_invitation.js"/>
+      </xpath>
+    </template>
+</odoo>
