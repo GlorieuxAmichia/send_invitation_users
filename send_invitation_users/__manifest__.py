@@ -4,7 +4,7 @@
 	'sequence': 0,
 	'summary': """Send Invitation Or Reset Password Intruction To Many Users""",
 	'description': """This module is used to Send Invitation to many Users.""",
-	'author': "SLife Organization, Odoo Community Association (OCA)",
+	'author': "SLife Organization",
 	'category': 'web',
 	'version': '1.0',
 	'license': 'AGPL-3',
